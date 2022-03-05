@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e7c73fa.css",
-    "main.js": "/static/js/main.3b406daa.js",
-    "static/media/175yrsIITR.png": "/static/media/175yrsIITR.c0c3476da71bd2a5593f.png",
-    "static/media/speakers3.jpeg": "/static/media/speakers3.21ab2df4958c2cb0cc99.jpeg",
-    "static/media/Einstein.jpg": "/static/media/Einstein.fbc7c303ef0ae9a1fbe0.jpg",
-    "static/media/image3.jpeg": "/static/media/image3.f70bce35dbd3e94a1711.jpeg",
-    "static/media/image1.jpeg": "/static/media/image1.74048116daf0c7eaa9ab.jpeg",
-    "index.html": "/index.html",
-    "main.1e7c73fa.css.map": "/static/css/main.1e7c73fa.css.map",
-    "main.3b406daa.js.map": "/static/js/main.3b406daa.js.map"
+    "main.css": "/ird-react/static/css/main.83dea42e.css",
+    "main.js": "/ird-react/static/js/main.80b6e7ab.js",
+    "static/media/175yrsIITR.png": "/ird-react/static/media/175yrsIITR.c0c3476da71bd2a5593f.png",
+    "static/media/speakers3.jpeg": "/ird-react/static/media/speakers3.21ab2df4958c2cb0cc99.jpeg",
+    "static/media/Einstein.jpg": "/ird-react/static/media/Einstein.fbc7c303ef0ae9a1fbe0.jpg",
+    "static/media/image3.jpeg": "/ird-react/static/media/image3.f70bce35dbd3e94a1711.jpeg",
+    "static/media/image1.jpeg": "/ird-react/static/media/image1.74048116daf0c7eaa9ab.jpeg",
+    "index.html": "/ird-react/index.html",
+    "main.83dea42e.css.map": "/ird-react/static/css/main.83dea42e.css.map",
+    "main.80b6e7ab.js.map": "/ird-react/static/js/main.80b6e7ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e7c73fa.css",
-    "static/js/main.3b406daa.js"
+    "static/css/main.83dea42e.css",
+    "static/js/main.80b6e7ab.js"
   ]
 }
