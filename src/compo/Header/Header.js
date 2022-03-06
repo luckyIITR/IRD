@@ -5,7 +5,7 @@ import Einstein from "../images/Einstein.jpg";
 function Header() {
   return (
     <div className="header">
-      <Navbar />
+      <Navbar isnothome="false" />
       <div className="over-img"></div>
       <div className="content">
         <h1>

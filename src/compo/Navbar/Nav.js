@@ -1,11 +1,11 @@
 import React from "react";
+import logo from "../images/logo_175_yr.png";
 
-function Nav() {
+function Nav({ isnothome }) {
   return (
     <nav>
       <div className="logo">
-        {/* <!-- <img src="images/logo.png" alt="" />
-    <span>wearme.</span> --> */}
+        {isnothome === "true" ? <img src={logo} alt="" /> : <></>}
       </div>
       <ul>
         <li>
