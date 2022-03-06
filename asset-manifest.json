@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/ird-react/static/css/main.83dea42e.css",
-    "main.js": "/ird-react/static/js/main.80b6e7ab.js",
-    "static/media/175yrsIITR.png": "/ird-react/static/media/175yrsIITR.c0c3476da71bd2a5593f.png",
-    "static/media/speakers3.jpeg": "/ird-react/static/media/speakers3.21ab2df4958c2cb0cc99.jpeg",
-    "static/media/Einstein.jpg": "/ird-react/static/media/Einstein.fbc7c303ef0ae9a1fbe0.jpg",
-    "static/media/image3.jpeg": "/ird-react/static/media/image3.f70bce35dbd3e94a1711.jpeg",
-    "static/media/image1.jpeg": "/ird-react/static/media/image1.74048116daf0c7eaa9ab.jpeg",
+    "main.css": "/ird-react/static/css/main.93b1e582.chunk.css",
+    "main.js": "/ird-react/static/js/main.c8ed3014.chunk.js",
+    "main.js.map": "/ird-react/static/js/main.c8ed3014.chunk.js.map",
+    "runtime-main.js": "/ird-react/static/js/runtime-main.af1f388a.js",
+    "runtime-main.js.map": "/ird-react/static/js/runtime-main.af1f388a.js.map",
+    "static/js/2.a1be36fb.chunk.js": "/ird-react/static/js/2.a1be36fb.chunk.js",
+    "static/js/2.a1be36fb.chunk.js.map": "/ird-react/static/js/2.a1be36fb.chunk.js.map",
     "index.html": "/ird-react/index.html",
-    "main.83dea42e.css.map": "/ird-react/static/css/main.83dea42e.css.map",
-    "main.80b6e7ab.js.map": "/ird-react/static/js/main.80b6e7ab.js.map"
+    "static/css/main.93b1e582.chunk.css.map": "/ird-react/static/css/main.93b1e582.chunk.css.map",
+    "static/js/2.a1be36fb.chunk.js.LICENSE.txt": "/ird-react/static/js/2.a1be36fb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ird-react/static/media/175yrsIITR.c0c3476d.png",
+    "static/media/Einstein.fbc7c303.jpg": "/ird-react/static/media/Einstein.fbc7c303.jpg",
+    "static/media/image1.74048116.jpeg": "/ird-react/static/media/image1.74048116.jpeg",
+    "static/media/image3.f70bce35.jpeg": "/ird-react/static/media/image3.f70bce35.jpeg",
+    "static/media/logo_175_yr.ffcd6597.png": "/ird-react/static/media/logo_175_yr.ffcd6597.png",
+    "static/media/speakers3.21ab2df4.jpeg": "/ird-react/static/media/speakers3.21ab2df4.jpeg"
   },
   "entrypoints": [
-    "static/css/main.83dea42e.css",
-    "static/js/main.80b6e7ab.js"
+    "static/js/runtime-main.af1f388a.js",
+    "static/js/2.a1be36fb.chunk.js",
+    "static/css/main.93b1e582.chunk.css",
+    "static/js/main.c8ed3014.chunk.js"
   ]
 }
