@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo_175_yr.png";
 
 function Nav({ isnothome }) {
@@ -9,10 +10,10 @@ function Nav({ isnothome }) {
       </div>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Register</a>
+          <Link to="/Register">Register</Link>
         </li>
         <li>
           <a href="#">Participants</a>

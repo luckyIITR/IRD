@@ -158,3 +158,132 @@ nav ul li a {
   width: 100%;
   height: auto;
 }
+
+/* ------------Form Page---------------- */
+
+.hero {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.register-heading {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.hero form {
+  width: 90%;
+  max-width: 600px;
+}
+.hero .input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+.hero input,
+.hero select {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+}
+
+.hero label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: black;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-btn button {
+  width: 270px;
+  height: 80px;
+  border: 0;
+  outline: none;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hero-btn .check-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: -40px;
+  opacity: 0;
+}
+.hero-btn .check-box svg {
+  width: 40px;
+  margin: 20px;
+}
+
+.hero-btn svg path {
+  stroke-width: 3;
+  stroke: #fff;
+  stroke-dasharray: 34;
+  stroke-dashoffset: 34;
+  stroke-linecap: round;
+}
+
+.active {
+  background: #00093c !important;
+  transition: 0.5s;
+}
+
+.active .check-box {
+  right: 0;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.active p {
+  margin-right: 125px;
+  transition: 0.5s;
+}
+
+.active svg path {
+  stroke-dashoffset: 0;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hero input:focus ~ label,
+.hero input:valid ~ label,
+.hero textarea:focus ~ label,
+.hero textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+
+.row-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-form .input-group {
+  flex-basis: 48%;
+}
