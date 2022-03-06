@@ -16,13 +16,13 @@ function Nav({ isnothome }) {
           <Link to="/Register">Register</Link>
         </li>
         <li>
-          <a href="#">Participants</a>
+          <Link to="/Participants">Participants</Link>
         </li>
         <li>
-          <a href="#">Dummy</a>
+          <Link to="/Dummy">Dummy</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
     </nav>

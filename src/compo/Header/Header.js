@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Nav";
 import Einstein from "../images/Einstein.jpg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -15,9 +16,9 @@ function Header() {
         </h1>
         <p>14th March</p>
         <div className="links">
-          <a href="#" className="btn">
+          <Link to="/Register" className="btn">
             Register Now
-          </a>
+          </Link>
         </div>
         <img src={Einstein} alt="Einstein Sir" className="einstein" />
       </div>
