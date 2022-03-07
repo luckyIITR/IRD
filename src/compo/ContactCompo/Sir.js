@@ -31,7 +31,7 @@ function Sir() {
                     {" "}
                   </i>
                   &nbsp;
-                  <span>ism2021@iitr.ac.in</span>
+                  <span>irdc@iitr.ac.in</span>
                   <br />
                   <i
                     className="fas fa-envelope-square"

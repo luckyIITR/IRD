@@ -14,7 +14,7 @@ function Header() {
           <br />
           Research Day
         </h1>
-        <p>13-14th March</p>
+        <p>13-14 March</p>
         <div className="links">
           <Link to="/Register" className="btn">
             Registration for Talks
