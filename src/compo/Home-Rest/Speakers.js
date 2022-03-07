@@ -60,9 +60,6 @@ function Speakers() {
                                 <i className="fas fa-clock"> </i>&nbsp; Mar 13, 6:45 pm
                             </div>
                             <h2>People No One Can Imagine Anything Of & Following S. Ramanujan’s Example</h2>
-                            <p className="review">
-                                Institute Lecture
-                            </p>
                             <div className="review" style={{display: "flex", flexWrap: "wrap", justifyContent : "center"}}>
                                 <div className="lect">
                                     <a className="ui button outline lifeAtIITRButton" href="https://youtu.be/IIwiM777OzQ"

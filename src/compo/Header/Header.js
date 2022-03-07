@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Nav";
 import Einstein from "../images/Einstein.jpg";
+import pi from "../images/pi.png"
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -20,7 +21,10 @@ function Header() {
             Registration for Talks
           </Link>
         </div>
-        <img src={Einstein} alt="Einstein Sir" className="einstein" />
+        <div style={{display:"flex", alignItems:"center"}}>
+        <div><img src={Einstein} alt="Albert Einstein" className="einstein" /></div>
+        <div><img src={pi} alt="Pi" className="pi" /></div>
+        </div>
       </div>
     </div>
   );

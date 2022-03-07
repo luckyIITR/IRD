@@ -59,7 +59,7 @@ nav ul li a {
   margin-top: 70px;
   font-size: 4.3em;
   font-weight: 600;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .content p {
@@ -80,9 +80,14 @@ nav ul li a {
   border-radius: 35px;
 }
 .einstein {
-  width: 25%;
+  width: 35%;
   display: block;
-  margin-left: 5%;
+  margin-left: 10%;
+}
+.pi {
+  width: 75%;
+  display: block;
+  margin-left: 75%;
 }
 
 .container {
