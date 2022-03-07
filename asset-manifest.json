@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ird-react/static/css/main.d34d3b45.chunk.css",
-    "main.js": "/ird-react/static/js/main.af565e6b.chunk.js",
-    "main.js.map": "/ird-react/static/js/main.af565e6b.chunk.js.map",
+    "main.css": "/ird-react/static/css/main.d73448df.chunk.css",
+    "main.js": "/ird-react/static/js/main.22734950.chunk.js",
+    "main.js.map": "/ird-react/static/js/main.22734950.chunk.js.map",
     "runtime-main.js": "/ird-react/static/js/runtime-main.af1f388a.js",
     "runtime-main.js.map": "/ird-react/static/js/runtime-main.af1f388a.js.map",
     "static/js/2.62fe1d07.chunk.js": "/ird-react/static/js/2.62fe1d07.chunk.js",
     "static/js/2.62fe1d07.chunk.js.map": "/ird-react/static/js/2.62fe1d07.chunk.js.map",
     "index.html": "/ird-react/index.html",
-    "static/css/main.d34d3b45.chunk.css.map": "/ird-react/static/css/main.d34d3b45.chunk.css.map",
+    "static/css/main.d73448df.chunk.css.map": "/ird-react/static/css/main.d73448df.chunk.css.map",
     "static/js/2.62fe1d07.chunk.js.LICENSE.txt": "/ird-react/static/js/2.62fe1d07.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ird-react/static/media/175yrsIITR.c0c3476d.png",
     "static/media/Einstein.fbc7c303.jpg": "/ird-react/static/media/Einstein.fbc7c303.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.af1f388a.js",
     "static/js/2.62fe1d07.chunk.js",
-    "static/css/main.d34d3b45.chunk.css",
-    "static/js/main.af565e6b.chunk.js"
+    "static/css/main.d73448df.chunk.css",
+    "static/js/main.22734950.chunk.js"
   ]
 }
