@@ -14,10 +14,10 @@ function Header() {
           <br />
           Research Day
         </h1>
-        <p>14th March</p>
+        <p>13-14th March</p>
         <div className="links">
           <Link to="/Register" className="btn">
-            Register Now
+            Registration for Talks
           </Link>
         </div>
         <img src={Einstein} alt="Einstein Sir" className="einstein" />
