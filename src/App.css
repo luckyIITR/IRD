@@ -12,6 +12,7 @@
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
 nav {
   width: 100%;
   display: flex;
@@ -43,6 +44,82 @@ nav ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: 500;
+}
+
+nav li a:hover,
+nav li.active a {
+  background-position: 0 -36px;
+  background-color: #f0f1f6;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.menuWrapper {
+  margin: 5px 0 5px 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  nav ul li {
+    display: block;
+  }
+
+  nav ul :nth-child(5) {
+    display: inline;
+  }
+
+  .logoImage {
+    margin-bottom: 17px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    background: #203860;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 9999;
+    transition: 0.7s;
+  }
+  nav .fas,
+  .menuHamburgerContainer .fas {
+    display: block;
+    color: black;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  nav ul {
+    padding: 30px;
+  }
+  nav li a {
+    color: white;
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+  .fa-times {
+    color: white !important;
+    padding: 30px 20px 20px;
+  }
+}
+
+nav .fas,
+.menuHamburgerContainer .fas {
+  display: none;
 }
 
 .over-img {
@@ -604,4 +681,25 @@ nav ul li a {
   font-weight: bold;
   width: max-content;
   float: right;
+}
+
+/* -------botton----- */
+
+.lifeAtIITRButton {
+  border: 1px solid #0067b3 !important;
+}
+
+.lifeAtIITRButton:hover {
+  background-color: #0067b3 !important;
+  color: #ffffff;
+}
+
+.button {
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: var(--font-family-lato);
+  text-transform: uppercase;
+  text-decoration: none !important;
 }

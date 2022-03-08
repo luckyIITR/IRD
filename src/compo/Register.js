@@ -30,6 +30,7 @@ function Register() {
         Email: formdata.get("Email"),
         Institute: formdata.get("Institute"),
         Post: formdata.get("Post"),
+        Attendance: formdata.get("Attendance"),
       });
     }
 
@@ -39,6 +40,8 @@ function Register() {
         document.getElementById("email").value = "";
         document.getElementById("institute").value = "";
         document.getElementById("post").value = "DEFAULT";
+        document.getElementById("attendance").value = "DEFAULT";
+
       })
       .catch((error) => console.error("Error!", error.message));
   };
@@ -83,6 +86,16 @@ function Register() {
                 <option value="Student">Student</option>
                 <option value="Post Doc.">Post Doc.</option>
                 <option value="Faculty">Faculty (active/retired)</option>
+              </select>
+            </div>
+
+            <div className="input-group">
+              <select name="Attendance" id="attendance" required>
+                <option value="DEFAULT" selected disabled>
+                  - How would you like to attend? -
+                </option>
+                <option value="Online">Online</option>
+                <option value="Offline">In-person LHC-II(Room L2-103))</option>
               </select>
             </div>
 
