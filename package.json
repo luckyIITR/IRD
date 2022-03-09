@@ -1,6 +1,6 @@
 {
-  "homepage": "http://luckyIITR.github.io/ird-react",
-  "name": "ird-react",
+  "homepage": "https://iitr.ac.in/ird/",
+  "name": "ird",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
