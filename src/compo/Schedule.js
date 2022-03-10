@@ -20,25 +20,26 @@ function Schedule() {
                 <div className="cell">Event</div>
               </div>
               <div className="row-table">
-                <div className="cell">4:00 pm</div>
+                <div className="cell">4:00 - 4:15pm</div>
                 <div className="cell">
-                  Inauguration of the Poster Session and inaugural address by
-                  Director.
+                  Inauguration of the Poster Session and Inaugural Address by
+                  the Director
                 </div>
               </div>
               <div className="row-table">
-                <div className="cell">4:00-5:30 pm</div>
-                <div className="cell">Poster session</div>
+                <div className="cell">4:15-5:30 pm</div>
+                <div className="cell">Poster Session</div>
               </div>
               <div className="row-table">
-                <div className="cell">5:45-6:15 pm</div>
+                <div className="cell">5:30-6:15 pm</div>
                 <div className="cell">Refreshments</div>
               </div>
               <div className="row-table">
-                <div className="cell">6:30-7:30 pm</div>
+                <div className="cell">6:15-7:30 pm</div>
                 <div className="cell">
-                  Technical session 1 (also CV Raman Talk) (Prof. Witten,
-                  Princeton)
+                  Technical Session 01, also C.V. Raman Memorial Lecture <br />{" "}
+                  Talk by Prof. Edward Witten, Princeton University <br />
+                  <i>Black Hole Thermodynamics: Then and Now</i>
                 </div>
               </div>
             </div>
@@ -56,15 +57,20 @@ function Schedule() {
               <div className="row-table">
                 <div className="cell">5:00-5:20 pm</div>
                 <div className="cell">
-                  Launch of Research Gallery by the Director
+                  Inauguration of Research Day and Launch of Research Gallery by
+                  the Director
                 </div>
               </div>
               <div className="row-table">
-                <div className="cell">5:20-6:20 pm</div>
+                <div className="cell">5:20-6:00 pm</div>
                 <div className="cell">
-                  Workshop: Resource Person: Prof. Ajit K. Chaturvedi and poster
-                  awards
+                  Talk by Prof. Ajit K. Chaturvedi <br />
+                  <i>Thesis and Manuscript writing: a Perspective</i>
                 </div>
+              </div>
+              <div className="row-table">
+                <div className="cell">6:00-6:20 pm</div>
+                <div className="cell">Poster Awards</div>
               </div>
               <div className="row-table">
                 <div className="cell">6:20-6:40 pm</div>
@@ -73,13 +79,20 @@ function Schedule() {
               <div className="row-table">
                 <div className="cell">6:45-7:45 pm</div>
                 <div className="cell">
-                  Technical session 2 (Prof. James Gates, Brown Univ.)
+                  Technical Session 02 <br /> Talk by Prof. James Gates Jr.,
+                  Brown University <br />
+                  <i>
+                    People no one can Imagine Anything of and Following S.
+                    Ramanujan’s Example
+                  </i>
                 </div>
               </div>
               <div className="row-table">
                 <div className="cell">8:00-9:00 pm</div>
                 <div className="cell">
-                  Technical session 3 (Prof. Abhay Ashtekar, Penn State Univ.)
+                  Technical Session 03 <br /> Talk by Prof. Abhay Ashtekar, Penn
+                  State University Gravity, <br />
+                  <i>Geometry and Quantum: Physics beyond Einstein</i>
                 </div>
               </div>
             </div>

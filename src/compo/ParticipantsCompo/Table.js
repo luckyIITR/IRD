@@ -70,7 +70,7 @@ function Table() {
                 <div className="cell">S.No.</div>
                 <div className="cell">Name</div>
                 <div className="cell">Student/Postdoc/Faculty</div>
-                <div className="cell" style={{ paddingLeft: "18px" }}>
+                <div className="cell" style={{ textAlign: "center" }}>
                   Attendance Mode
                 </div>
                 <div className="cell">Institution</div>
