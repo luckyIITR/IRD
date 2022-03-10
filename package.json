@@ -1,6 +1,6 @@
 {
-  "homepage": "https://iitr.ac.in/ird/",
   "name": "ird",
+  "homepage": "https://iitr.ac.in/ird/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
