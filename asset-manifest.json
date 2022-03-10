@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ird-react/static/css/main.d4f3eae9.chunk.css",
-    "main.js": "/ird-react/static/js/main.824b4e89.chunk.js",
-    "main.js.map": "/ird-react/static/js/main.824b4e89.chunk.js.map",
-    "runtime-main.js": "/ird-react/static/js/runtime-main.af1f388a.js",
-    "runtime-main.js.map": "/ird-react/static/js/runtime-main.af1f388a.js.map",
-    "static/js/2.62fe1d07.chunk.js": "/ird-react/static/js/2.62fe1d07.chunk.js",
-    "static/js/2.62fe1d07.chunk.js.map": "/ird-react/static/js/2.62fe1d07.chunk.js.map",
-    "index.html": "/ird-react/index.html",
-    "static/css/main.d4f3eae9.chunk.css.map": "/ird-react/static/css/main.d4f3eae9.chunk.css.map",
-    "static/js/2.62fe1d07.chunk.js.LICENSE.txt": "/ird-react/static/js/2.62fe1d07.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ird-react/static/media/175yrsIITR.c0c3476d.png",
-    "static/media/Einstein.fbc7c303.jpg": "/ird-react/static/media/Einstein.fbc7c303.jpg",
-    "static/media/Speaker1.10f545b3.jpeg": "/ird-react/static/media/Speaker1.10f545b3.jpeg",
-    "static/media/Speaker2.0d62ea37.jpeg": "/ird-react/static/media/Speaker2.0d62ea37.jpeg",
-    "static/media/Speaker3.6fe121ab.jpeg": "/ird-react/static/media/Speaker3.6fe121ab.jpeg",
-    "static/media/image1.74048116.jpeg": "/ird-react/static/media/image1.74048116.jpeg",
-    "static/media/image3.f70bce35.jpeg": "/ird-react/static/media/image3.f70bce35.jpeg",
-    "static/media/logo_175_yr.ffcd6597.png": "/ird-react/static/media/logo_175_yr.ffcd6597.png"
+    "main.css": "/ird/static/css/main.971c09e0.chunk.css",
+    "main.js": "/ird/static/js/main.ad0f518b.chunk.js",
+    "main.js.map": "/ird/static/js/main.ad0f518b.chunk.js.map",
+    "runtime-main.js": "/ird/static/js/runtime-main.1a50fb99.js",
+    "runtime-main.js.map": "/ird/static/js/runtime-main.1a50fb99.js.map",
+    "static/js/2.c4690067.chunk.js": "/ird/static/js/2.c4690067.chunk.js",
+    "static/js/2.c4690067.chunk.js.map": "/ird/static/js/2.c4690067.chunk.js.map",
+    "index.html": "/ird/index.html",
+    "static/css/main.971c09e0.chunk.css.map": "/ird/static/css/main.971c09e0.chunk.css.map",
+    "static/js/2.c4690067.chunk.js.LICENSE.txt": "/ird/static/js/2.c4690067.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ird/static/media/175yrsIITR.c0c3476d.png",
+    "static/media/Einstein.fbc7c303.jpg": "/ird/static/media/Einstein.fbc7c303.jpg",
+    "static/media/Speaker1.10f545b3.jpeg": "/ird/static/media/Speaker1.10f545b3.jpeg",
+    "static/media/Speaker2.0d62ea37.jpeg": "/ird/static/media/Speaker2.0d62ea37.jpeg",
+    "static/media/Speaker3.6fe121ab.jpeg": "/ird/static/media/Speaker3.6fe121ab.jpeg",
+    "static/media/image1.74048116.jpeg": "/ird/static/media/image1.74048116.jpeg",
+    "static/media/image3.f70bce35.jpeg": "/ird/static/media/image3.f70bce35.jpeg",
+    "static/media/logo_175_yr.ffcd6597.png": "/ird/static/media/logo_175_yr.ffcd6597.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.af1f388a.js",
-    "static/js/2.62fe1d07.chunk.js",
-    "static/css/main.d4f3eae9.chunk.css",
-    "static/js/main.824b4e89.chunk.js"
+    "static/js/runtime-main.1a50fb99.js",
+    "static/js/2.c4690067.chunk.js",
+    "static/css/main.971c09e0.chunk.css",
+    "static/js/main.ad0f518b.chunk.js"
   ]
 }
