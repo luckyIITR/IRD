@@ -41,7 +41,6 @@ function Register() {
         document.getElementById("institute").value = "";
         document.getElementById("post").value = "DEFAULT";
         document.getElementById("attendance").value = "DEFAULT";
-
       })
       .catch((error) => console.error("Error!", error.message));
   };
@@ -50,6 +49,9 @@ function Register() {
       <Navbar isnothome="true" />
       <div className="hero">
         <section className="container">
+          <h1 style={{ marginBottom: "2em", fontSize: "2em" }}>
+            Registration For Talk
+          </h1>
           <form
             method="post"
             autoComplete="off"

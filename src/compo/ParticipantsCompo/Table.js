@@ -27,6 +27,8 @@ function Table() {
         data_row["name"] = rows[i].Name;
         data_row["post"] = rows[i].Post;
         data_row["institute"] = rows[i].Institute;
+        data_row["attendance"] = rows[i].Attendance;
+
         temp.push(data_row);
       }
       setData(temp);
@@ -47,7 +49,7 @@ function Table() {
   return (
     <div className="limiter">
       <div className="register-heading sectionHeading participants">
-        Participants
+        <h1 style={{ fontSize: "2em" }}>Participants</h1>
         <br />
         <br />
       </div>
@@ -67,7 +69,10 @@ function Table() {
               <div className="header-table">
                 <div className="cell">S.No.</div>
                 <div className="cell">Name</div>
-                <div className="cell">Student/Faculty</div>
+                <div className="cell">Student/Postdoc/Faculty</div>
+                <div className="cell" style={{ paddingLeft: "18px" }}>
+                  Attendance Mode
+                </div>
                 <div className="cell">Institution</div>
               </div>
               {data.map((value, index) => {

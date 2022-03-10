@@ -26,9 +26,9 @@ function Nav({ isnothome }) {
             <li>
               <Link to="/Participants">Participants</Link>
             </li>
-            {/* <li>
-          <Link to="/Dummy">Dummy</Link>
-        </li> */}
+            <li>
+              <Link to="/Schedule">Schedule</Link>
+            </li>
             <li>
               <Link to="/Contact">Contact</Link>
             </li>

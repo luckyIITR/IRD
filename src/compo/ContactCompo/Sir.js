@@ -4,7 +4,9 @@ function Sir() {
   return (
     <div>
       <div className="cmsContainer" style={{ marginBottom: "0" }}>
-        <div className="sectionHeading">Contact us</div>
+        <div className="sectionHeading" style={{ fontSize: "2em" }}>
+          Contact us
+        </div>
       </div>
       <div className="cmsContainer" style={{ marginTop: "0", height: "40vh" }}>
         <div className="textArea noticeboard-upcoming-events-container">
