@@ -711,3 +711,8 @@ nav .fas,
   text-decoration: none !important;
   display: block;
 }
+
+/* -----poster--- */
+#more {
+  display: none;
+}
