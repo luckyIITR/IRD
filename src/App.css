@@ -29,6 +29,11 @@ nav {
   float: right;
 }
 
+@media (max-width: 988px) {
+  .nav-link {
+    font-size: 21px;
+  }
+}
 .logo {
   display: inline;
   align-items: center;
@@ -327,7 +332,6 @@ nav {
 .wrap-table100 {
   width: 80rem;
   border-radius: 10px;
-  height: 50vh;
   overflow-y: auto;
 }
 .table {
@@ -665,7 +669,7 @@ nav {
   .over-img {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 66vh;
     background-image: url(./compo/images/175yrsIITR.png);
     background-position: left;
     background-size: 100%;

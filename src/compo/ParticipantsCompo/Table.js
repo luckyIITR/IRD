@@ -4,7 +4,7 @@ import Row from "./Row";
 
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 
-function Table() {
+function Table({ vh }) {
   const [data, setData] = useState([]);
   const accessSpread = async () => {
     try {
@@ -54,7 +54,7 @@ function Table() {
         <br />
       </div>
       <div className="container-table100">
-        <div className="wrap-table100">
+        <div className="wrap-table100" style={{ height: vh }}>
           {!data.length ? (
             <div className="table">
               <RingLoader

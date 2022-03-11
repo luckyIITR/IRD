@@ -36,7 +36,7 @@ function readmehandler2() {
 
 function Speakers() {
   return (
-    <div className="container">
+    <div className="container-man">
       <h1 className="section-heading">Speakers</h1>
       <div className="container-sp">
         <div className="wrapper">

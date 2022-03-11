@@ -6,7 +6,7 @@ import image4 from "../images/image4.jpeg";
 
 function Events() {
   return (
-    <section className="container">
+    <section className="container-man">
       <h1 className="section-heading">Events</h1>
       <div className="row">
         <div className="events-col">

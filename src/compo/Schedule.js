@@ -12,7 +12,7 @@ function Schedule() {
           <br />
         </div>
         <div className="container-table100" style={{ paddingBottom: "10px" }}>
-          <div className="wrap-table100">
+          <div className="wrap-table100" style={{ overflowY: "unset" }}>
             <h2>13th March</h2>
             <div className="table">
               <div className="header-table">

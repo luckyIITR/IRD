@@ -14,7 +14,7 @@ function readmehandler() {
 function Poster() {
   return (
     <>
-      <div className="container">
+      <div className="container-man">
         <button
           className="ui button outline lifeAtIITRButton"
           onClick={readmehandler}
