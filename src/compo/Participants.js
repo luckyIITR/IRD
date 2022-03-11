@@ -6,7 +6,7 @@ function Participants() {
   return (
     <>
       <Navbar isnothome="true" />
-      <Table />;
+      <Table vh="70vh" />
     </>
   );
 }

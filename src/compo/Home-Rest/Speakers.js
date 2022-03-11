@@ -36,7 +36,7 @@ function readmehandler2() {
 
 function Speakers() {
   return (
-    <div className="container">
+    <div className="container-man">
       <h1 className="section-heading">Speakers</h1>
       <div className="container-sp">
         <div className="wrapper">
@@ -80,7 +80,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://www.youtube.com/channel/UClankIBjIwxPC_pZLk4AKxA"
+                    href="https://youtu.be/c9EP5GS5Z2w"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
@@ -172,7 +172,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://www.youtube.com/channel/UClankIBjIwxPC_pZLk4AKxA"
+                    href="https://youtu.be/JTNYM0pSY1E"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
@@ -263,7 +263,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://www.youtube.com/channel/UClankIBjIwxPC_pZLk4AKxA"
+                    href="https://youtu.be/Hi3oWc6WDFc"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >

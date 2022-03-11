@@ -6,10 +6,9 @@ function Register() {
   const google = async (e) => {
     const btn = document.getElementById("btn");
     const btnText = document.getElementById("btnText");
+
     btnText.innerHTML = "Thanks";
     btn.classList.add("active");
-
-    e.preventDefault();
 
     async function accessSpread() {
       const creds = require("./client_secret.json"); // the file saved above
@@ -33,14 +32,15 @@ function Register() {
         Attendance: formdata.get("Attendance"),
       });
     }
+    e.preventDefault();
 
     accessSpread()
       .then((response) => {
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("institute").value = "";
-        document.getElementById("post").value = "DEFAULT";
-        document.getElementById("attendance").value = "DEFAULT";
+        document.getElementById("post").value = "";
+        document.getElementById("attendance").value = "";
       })
       .catch((error) => console.error("Error!", error.message));
   };
@@ -48,7 +48,7 @@ function Register() {
     <>
       <Navbar isnothome="true" />
       <div className="hero">
-        <section className="container">
+        <section className="container-man">
           <h1 style={{ marginBottom: "2em", fontSize: "2em" }}>
             Registration For Talk
           </h1>
@@ -82,7 +82,7 @@ function Register() {
 
             <div className="input-group">
               <select name="Post" id="post" required>
-                <option value="DEFAULT" selected disabled>
+                <option value="" selected disabled>
                   - Select a category -
                 </option>
                 <option value="Student">Student</option>
@@ -93,11 +93,11 @@ function Register() {
 
             <div className="input-group">
               <select name="Attendance" id="attendance" required>
-                <option value="DEFAULT" selected disabled>
+                <option value="" selected disabled>
                   - How would you like to attend? -
                 </option>
                 <option value="Online">Online</option>
-                <option value="Offline">In-person LHC-II(Room L2-103))</option>
+                <option value="Offline">In-person LHC-II (Room L2-103)</option>
               </select>
             </div>
 

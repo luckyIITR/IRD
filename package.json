@@ -1,15 +1,19 @@
 {
   "name": "ird",
-  "homepage": "https://www.iitr.ac.in/ird",
+  "homepage": "https://www.iitr.ac.in/ird/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "babel-plugin-react-scoped-css": "^1.1.1",
+    "bootstrap": "^5.1.3",
+    "craco-plugin-scoped-css": "^1.1.1",
     "gh-pages": "^3.2.3",
     "google-spreadsheet": "^3.1.15",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.2.0",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
@@ -18,9 +22,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
