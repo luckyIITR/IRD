@@ -48,7 +48,7 @@ function Register() {
     <>
       <Navbar isnothome="true" />
       <div className="hero">
-        <section className="container">
+        <section className="container-man">
           <h1 style={{ marginBottom: "2em", fontSize: "2em" }}>
             Registration For Talk
           </h1>

@@ -6,54 +6,11 @@
 }
 .header {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url(./compo/images/175yrsIITR.png);
   background-position: left;
   background-size: 50%;
   background-repeat: no-repeat;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 0%;
-}
-
-nav .logo {
-  display: flex;
-  align-items: center;
-  font-size: 26px;
-  font-weight: 600;
-  color: #000000;
-}
-
-nav .logo img {
-  width: 300px;
-  margin-right: 10px;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-}
-
-nav li a:hover,
-nav li.active a {
-  background-position: 0 -36px;
-  background-color: #f0f1f6;
-}
-
-nav ul li a:hover {
-  font-weight: bold;
 }
 
 .menuWrapper {
@@ -68,58 +25,21 @@ nav ul li a:hover {
   width: 100%;
 }
 
-@media screen and (max-width: 700px) {
-  nav ul li {
-    display: block;
-  }
-
-  nav ul :nth-child(5) {
-    display: inline;
-  }
-
-  .logoImage {
-    margin-bottom: 17px;
-  }
-
-  nav {
-    display: flex;
-    justify-content: space-between;
-
-    position: fixed;
-    background: #203860;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 9999;
-    transition: 0.7s;
-  }
-  nav .fas,
-  .menuHamburgerContainer .fas {
-    display: block;
-    color: black;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  nav ul {
-    padding: 30px;
-  }
-  nav li a {
-    color: white;
-    padding-bottom: 40px;
-    font-size: 18px;
-  }
-  .fa-times {
-    color: white !important;
-    padding: 30px 20px 20px;
-  }
+nav {
+  float: right;
 }
 
-nav .fas,
-.menuHamburgerContainer .fas {
-  display: none;
+.logo {
+  display: inline;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.logo img {
+  width: 300px;
+  margin-right: 10px;
 }
 
 .over-img {
@@ -167,7 +87,7 @@ nav .fas,
   margin-left: 40%;
 }
 
-.container {
+.container-man {
   max-width: 80%;
   margin: auto;
 }
@@ -176,6 +96,12 @@ nav .fas,
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
 }
 .events-col {
   flex-basis: 20%;
@@ -211,7 +137,7 @@ nav .fas,
   margin-top: 8%;
   background-color: orange;
   display: flex;
-  height: 86px;
+  height: 111px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -717,4 +643,40 @@ nav .fas,
 /* -----poster--- */
 #more {
   display: none;
+}
+
+/* ........responsive header-------- */
+
+.contentwrapper {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .contentwrapper {
+    flex-direction: column;
+  }
+  .header {
+    background: none;
+    background-size: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .over-img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./compo/images/175yrsIITR.png);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #more img {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
 }
