@@ -1,5 +1,5 @@
 import React from "react";
-import poster from "../images/poster.jpeg";
+import poster from "../images/poster.jpg";
 
 function readmehandler() {
   var more = document.getElementById("more");
