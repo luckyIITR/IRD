@@ -29,7 +29,7 @@ function Poster() {
         </button>
         <span id="more" style={{ display: "none" }}>
           <h1 style={{ fontSize: "3em", marginBottom: "50px" }}>Poster</h1>
-          <img src={poster} alt="poster" />
+          <img src={poster} style={{width: "100%"}} alt="poster" />
         </span>
       </div>
     </>

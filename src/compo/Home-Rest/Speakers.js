@@ -59,7 +59,7 @@ function Speakers() {
             </div>
             <div className="card-body">
               <div className="time">
-                <i className="fas fa-clock"> </i>&nbsp; Mar 13, 6:30 pm
+                <i className="fas fa-clock"> </i>&nbsp; Mar 13, 6:30 pm IST
               </div>
 
               <h2>Black Hole Thermodynamics: Then and Now</h2>
@@ -132,7 +132,7 @@ function Speakers() {
             </div>
             <div className="card-body">
               <div className="time">
-                <i className="fas fa-clock"> </i>&nbsp; Mar 14, 6:45 pm
+                <i className="fas fa-clock"> </i>&nbsp; Mar 14, 6:45 pm IST
               </div>
               <h2>
                 People No One Can Imagine Anything Of & Following S. Ramanujan’s
@@ -217,7 +217,7 @@ function Speakers() {
             </div>
             <div className="card-body">
               <div className="time">
-                <i className="fas fa-clock"> </i>&nbsp; Mar 13, 8 pm
+                <i className="fas fa-clock"> </i>&nbsp; Mar 14, 8 pm IST
               </div>
               <h2>
                 Gravity, Geometry and the Quantum: Physics Beyond Einstein
