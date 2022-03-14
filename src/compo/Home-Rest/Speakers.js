@@ -132,7 +132,7 @@ function Speakers() {
             </div>
             <div className="card-body">
               <div className="time">
-                <i className="fas fa-clock"> </i>&nbsp; Mar 14, 6:45 pm IST
+                <i className="fas fa-clock"> </i>&nbsp; Mar 14, 6:30 pm IST
               </div>
               <h2>
                 People No One Can Imagine Anything Of & Following S. Ramanujan’s

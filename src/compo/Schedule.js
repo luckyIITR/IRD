@@ -109,11 +109,11 @@ function Schedule() {
                 <div className="cell">Poster Awards</div>
               </div>
               <div className="row-table">
-                <div className="cell">6:20-6:40 pm</div>
+                <div className="cell">6:20-6:30 pm</div>
                 <div className="cell">Refreshments</div>
               </div>
               <div className="row-table">
-                <div className="cell">6:45-7:45 pm</div>
+                <div className="cell">6:30-7:45 pm</div>
                 <div className="cell">
                   Technical Session 02 <br /> Talk by Prof. James Gates Jr.,
                   Brown University <br />
