@@ -172,7 +172,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://youtu.be/JTNYM0pSY1E"
+                    href="https://youtu.be/WbIHuv99A6E"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
@@ -264,7 +264,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://youtu.be/Hi3oWc6WDFc"
+                    href="https://youtu.be/WbIHuv99A6E"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
