@@ -211,8 +211,9 @@ function Speakers() {
                   Abhay Ashtekar
                 </span>
                 <br />
-                (Evan Pugh Professor of Physics, holder of the Eberly Chair in Physics,
-                the Founding Director Emeritus of the Institute for Gravitation and the Cosmos, Penn State)
+                (Evan Pugh Professor of Physics, holder of the Eberly Chair in
+                Physics, the Founding Director Emeritus of the Institute for
+                Gravitation and the Cosmos, Penn State)
               </span>
             </div>
             <div className="card-body">

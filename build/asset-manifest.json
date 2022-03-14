@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ird/static/css/main.bdda2453.chunk.css",
-    "main.js": "/ird/static/js/main.6e743e88.chunk.js",
-    "main.js.map": "/ird/static/js/main.6e743e88.chunk.js.map",
+    "main.js": "/ird/static/js/main.55cf8d4d.chunk.js",
+    "main.js.map": "/ird/static/js/main.55cf8d4d.chunk.js.map",
     "runtime-main.js": "/ird/static/js/runtime-main.1a50fb99.js",
     "runtime-main.js.map": "/ird/static/js/runtime-main.1a50fb99.js.map",
-    "static/js/2.9c017541.chunk.js": "/ird/static/js/2.9c017541.chunk.js",
-    "static/js/2.9c017541.chunk.js.map": "/ird/static/js/2.9c017541.chunk.js.map",
+    "static/js/2.9a93a789.chunk.js": "/ird/static/js/2.9a93a789.chunk.js",
+    "static/js/2.9a93a789.chunk.js.map": "/ird/static/js/2.9a93a789.chunk.js.map",
     "index.html": "/ird/index.html",
     "static/css/main.bdda2453.chunk.css.map": "/ird/static/css/main.bdda2453.chunk.css.map",
-    "static/js/2.9c017541.chunk.js.LICENSE.txt": "/ird/static/js/2.9c017541.chunk.js.LICENSE.txt",
+    "static/js/2.9a93a789.chunk.js.LICENSE.txt": "/ird/static/js/2.9a93a789.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ird/static/media/175yrsIITR.c0c3476d.png",
     "static/media/Einstein.fbc7c303.jpg": "/ird/static/media/Einstein.fbc7c303.jpg",
     "static/media/Speaker1.10f545b3.jpeg": "/ird/static/media/Speaker1.10f545b3.jpeg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1a50fb99.js",
-    "static/js/2.9c017541.chunk.js",
+    "static/js/2.9a93a789.chunk.js",
     "static/css/main.bdda2453.chunk.css",
-    "static/js/main.6e743e88.chunk.js"
+    "static/js/main.55cf8d4d.chunk.js"
   ]
 }

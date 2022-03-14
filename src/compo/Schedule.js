@@ -66,6 +66,42 @@ function Schedule() {
                 <div className="cell">
                   Talk by Prof. Ajit K. Chaturvedi <br />
                   <i>Thesis and Manuscript writing: a Perspective</i>
+                  <div
+                    className="review"
+                    style={{
+                      display: "flex",
+                      flexWrap: "wrap",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <div className="lect">
+                      <a
+                        className="ui button outline lifeAtIITRButton"
+                        href="https://youtu.be/WbIHuv99A6E"
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fab fa-youtube" style={{ color: "red" }}>
+                          {" "}
+                        </i>
+                        &nbsp;&nbsp; YouTube
+                      </a>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div className="lect">
+                      <a
+                        className="ui button outline lifeAtIITRButton"
+                        href="https://us02web.zoom.us/j/81326345423"
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-video" style={{ color: "blue" }}>
+                          {" "}
+                        </i>
+                        &nbsp;&nbsp; Zoom
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="row-table">
