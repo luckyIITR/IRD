@@ -91,14 +91,14 @@ function Schedule() {
                     <div className="lect">
                       <a
                         className="ui button outline lifeAtIITRButton"
-                        href="https://us02web.zoom.us/j/81326345423"
+                        href="#"
                         target={"_blank"}
                         rel="noopener noreferrer"
                       >
-                        <i className="fas fa-video" style={{ color: "blue" }}>
+                        <i className="fas fa-file" style={{ color: "black" }}>
                           {" "}
                         </i>
-                        &nbsp;&nbsp; Zoom
+                        &nbsp;&nbsp; Talk File
                       </a>
                     </div>
                   </div>

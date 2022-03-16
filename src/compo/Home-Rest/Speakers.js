@@ -94,14 +94,14 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://us02web.zoom.us/j/85886636567"
+                    href="https://drive.google.com/file/d/1M7h6RvbOUOl644lbohfFDuiayj4ueBN-/view"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-video" style={{ color: "blue" }}>
+                    <i className="fas fa-file" style={{ color: "black" }}>
                       {" "}
                     </i>
-                    &nbsp;&nbsp; Zoom
+                    &nbsp;&nbsp; Talk File
                   </a>
                 </div>
               </div>
@@ -172,7 +172,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://youtu.be/WbIHuv99A6E"
+                    href="https://youtu.be/LxErCZNvJVw"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
@@ -186,14 +186,14 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://us02web.zoom.us/j/81326345423"
+                    href="#"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-video" style={{ color: "blue" }}>
+                    <i className="fas fa-file" style={{ color: "black" }}>
                       {" "}
                     </i>
-                    &nbsp;&nbsp; Zoom
+                    &nbsp;&nbsp; Talk File
                   </a>
                 </div>
               </div>
@@ -264,7 +264,7 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://youtu.be/WbIHuv99A6E"
+                    href="https://youtu.be/r4OrV7yUtcw"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
@@ -278,14 +278,14 @@ function Speakers() {
                 <div className="lect">
                   <a
                     className="ui button outline lifeAtIITRButton"
-                    href="https://us02web.zoom.us/j/81326345423"
+                    href="#"
                     target={"_blank"}
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-video" style={{ color: "blue" }}>
+                    <i className="fas fa-file" style={{ color: "black" }}>
                       {" "}
                     </i>
-                    &nbsp;&nbsp; Zoom
+                    &nbsp;&nbsp; Talk File
                   </a>
                 </div>
               </div>
