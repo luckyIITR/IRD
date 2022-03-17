@@ -63,6 +63,17 @@ function Nav({ isnothome }) {
                   </Link>
                 </li>
                 <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    style={{ color: "black" }}
+                    href="http://researchgallery.iitr.ac.in/"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
+                  >
+                    ResearchGallery
+                  </a>
+                </li>
+                <li class="nav-item">
                   <Link
                     class="nav-link"
                     to="/Contact"
